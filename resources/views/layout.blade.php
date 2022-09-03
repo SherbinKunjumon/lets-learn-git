@@ -1,4 +1,4 @@
 
 @yield('pagetitle')
 @include('menu')
-@yield('content')
+@yield('content')<h1></h1>
