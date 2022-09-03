@@ -14,6 +14,9 @@ use App\Http\Controllers\Productcontroller;
  Route::get('/', function () {
     return view('templayout');
 });
+Route::get('/', function () {
+    return view('templayout');
+});
 Route::resource('/products',ProductController::class);
 
 Route::get('download',[ProductController::class,'download']);
